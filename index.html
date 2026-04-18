@@ -9,79 +9,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
-body {
-    margin:0;
-    font-family:'Noto Sans Malayalam', sans-serif;
-    background:#f4f7f9;
-    color:#333;
-}
-
-.container {
-    max-width:1000px;
-    margin:auto;
-    padding:20px;
-}
-
-header {
-    background:#0a4c86;
-    color:white;
-    text-align:center;
-    padding:60px 20px;
-}
-
-h1 {font-size:2.2rem; line-height:1.4;}
-.subtitle {color:#ff9900; margin:15px 0;}
-
-.btn {
-    display:inline-block;
-    background:#ff9900;
-    color:white;
-    padding:14px 30px;
-    text-decoration:none;
-    border-radius:6px;
-    margin-top:20px;
-    font-weight:bold;
-}
-
-section {padding:50px 20px;}
-
-h2 {text-align:center; color:#0a4c86;}
-
-.card {
-    background:white;
-    padding:20px;
-    margin:15px 0;
-    border-radius:8px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.1);
-}
-
-.highlight {
-    background:#0a4c86;
-    color:white;
-}
-
-.highlight h2 {color:white;}
-
-footer {
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:30px;
-}
-
-/* Floating WhatsApp Button */
-.whatsapp-float {
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    background:#25D366;
-    color:white;
-    padding:14px 18px;
-    border-radius:50px;
-    text-decoration:none;
-    font-weight:bold;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);
-}
+body{margin:0;font-family:'Noto Sans Malayalam',sans-serif;background:#f4f7f9;color:#333;}
+.container{max-width:1000px;margin:auto;padding:20px;}
+header{background:#0a4c86;color:white;text-align:center;padding:60px 20px;}
+h1{font-size:2.2rem;}
+.subtitle{color:#ff9900;margin:15px 0;}
+.btn{display:inline-block;background:#ff9900;color:white;padding:14px 30px;text-decoration:none;border-radius:6px;margin-top:20px;font-weight:bold;}
+section{padding:50px 20px;}
+h2{text-align:center;color:#0a4c86;}
+.card{background:white;padding:20px;margin:15px 0;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+.highlight{background:#0a4c86;color:white;}
+.highlight h2{color:white;}
+footer{background:#222;color:white;text-align:center;padding:30px;}
+.whatsapp-float{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px 18px;border-radius:50px;text-decoration:none;font-weight:bold;}
 </style>
 
 </head>
@@ -104,11 +44,26 @@ footer {
 MDRT Advisor | Trainer
 </div>
 
-<a href="https://wa.me/919846220955" class="btn">
+<a href="https://wa.me/919846220955?text=Hi%20Sir,%20I%20want%20to%20register%20for%20the%20training" class="btn">
 ഇപ്പോൾ രജിസ്റ്റർ ചെയ്യൂ
 </a>
 
 </header>
+
+<!-- COUNTDOWN -->
+<section style="text-align:center;background:#fff3e0;">
+<div class="container">
+
+<p style="color:red;font-weight:bold;">⚠️ രജിസ്ട്രേഷൻ ഉടൻ അടയ്ക്കും</p>
+
+<h2>⏳ പരിശീലനം ആരംഭിക്കാൻ ബാക്കി സമയം</h2>
+
+<div id="countdown" style="font-size:1.5rem;font-weight:bold;margin-top:20px;">
+Loading...
+</div>
+
+</div>
+</section>
 
 <section>
 <div class="container">
@@ -119,7 +74,7 @@ MDRT Advisor | Trainer
 <div class="card">❌ പോളിസി ക്ലോസിംഗ് ബുദ്ധിമുട്ട്</div>
 <div class="card">❌ റഫറലുകൾ ലഭിക്കുന്നില്ല</div>
 
-<p style="color:red; text-align:center;">
+<p style="color:red;text-align:center;">
 👉 ആളുകൾ പോളിസി വാങ്ങുന്നത് നിങ്ങളെ വിശ്വസിച്ചാൽ മാത്രമാണ്
 </p>
 
@@ -129,7 +84,7 @@ MDRT Advisor | Trainer
 <section>
 <div class="container">
 
-<h2>എങ്ങനെ നിങ്ങൾ മാറാം?</h2>
+<h2>എങ്ങനെ നിങ്ങൾക്ക് മാറാൻ സാധിക്കും?</h2>
 
 <p style="text-align:center;">
 Agent → Trusted Advisor
@@ -149,24 +104,34 @@ Agent → Trusted Advisor
 
 <p>✔ പ്രായോഗിക തന്ത്രങ്ങൾ</p>
 <p>✔ യഥാർത്ഥ ഉദാഹരണങ്ങൾ</p>
-<p>✔ ലളിതമായ മലയാളം</p>
+<p>✔ മലയാളത്തിലുള്ള ലളിതമായ വിശദീകരണം</p>
 <p>✔ ഉടൻ പ്രയോഗിക്കാവുന്ന ആശയങ്ങൾ</p>
 
 </div>
 </section>
 
+<!-- ABOUT -->
 <section>
 <div class="container">
 
 <h2>പരിശീലകനെക്കുറിച്ച്</h2>
 
-<div class="card">
-<strong>AK Rasak</strong><br><br>
+<div class="card" style="text-align:center;">
 
+<img src="rasak.jpg" alt="AK Rasak"
+style="width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid #ff9900;margin-bottom:15px;">
+
+<br>
+
+<strong>AK Rasak</strong><br>
 MDRT Advisor | Trainer<br><br>
 
-വർഷങ്ങളുടെ അനുഭവസമ്പത്തുള്ള ഇൻഷുറൻസ് ട്രെയിനർ.<br>
-LIC പ്രൊഫഷണലുകൾക്ക് Trust build ചെയ്യാനും Sales improve ചെയ്യാനും സഹായിക്കുന്നു.
+പല തവണ MDRT നേട്ടം നേടിയ എൽ. ഐ. സി. ഏജൻ്റ്.<br><br>
+
+ആയിരക്കണക്കിന് LIC പ്രൊഫഷണലുകൾക്ക് പരിശീലനം നൽകിയ ഇൻഷുറൻസ് സെയ്ൽസ് ട്രെയിനർ.<br><br>
+
+LIC പ്രൊഫഷണലുകൾക്ക് Trust build ചെയ്യാനും Sales Improve ചെയ്യാനും സഹായിക്കുന്നു.
+
 </div>
 
 </div>
@@ -178,10 +143,10 @@ LIC പ്രൊഫഷണലുകൾക്ക് Trust build ചെയ്യാ
 <h2>പരിശീലന വിവരങ്ങൾ</h2>
 
 <div class="card">
-📅 തീയതി: 21-04-2026 <br><br>
-⏰ സമയം: വൈകുന്നേരം 7:45 <br><br>
-💻 പ്ലാറ്റ്ഫോം: Zoom <br><br>
-🔢 Zoom ID: 850 0075 6418 <br><br>
+📅 തീയതി: 21-04-2026 (ചൊവ്വ)<br><br>
+⏰ സമയം: വൈകുന്നേരം 7:45<br><br>
+💻 പ്ലാറ്റ്ഫോം: Zoom<br><br>
+🔢 Zoom ID: 850 0075 6418<br><br>
 📞 9846220955 | 9846510955
 </div>
 
@@ -193,10 +158,27 @@ LIC പ്രൊഫഷണലുകൾക്ക് Trust build ചെയ്യാ
 
 <h2 style="color:red;">സീറ്റുകൾ പരിമിതമാണ് (Limited Seats)</h2>
 
-<p>ഇപ്പോൾ തന്നെ രജിസ്റ്റർ ചെയ്യൂ</p>
-
-<a href="https://wa.me/919846220955" class="btn">
+<a href="https://wa.me/919846220955?text=Hi%20Sir,%20I%20want%20to%20register%20for%20the%20training" class="btn">
 ഇപ്പോൾ രജിസ്റ്റർ ചെയ്യൂ
+</a>
+
+</div>
+</section>
+
+<!-- APP -->
+<section style="background:#fff;">
+<div class="container" style="text-align:center;">
+
+<h2>Rasak Training App</h2>
+
+<p>
+നിങ്ങളുടെ ലൈഫ് ഇൻഷുറൻസ് കരിയർ അടുത്ത ലെവലിലേക്ക് കൊണ്ടുപോകാൻ ഇപ്പോൾ തന്നെ Rasak Training App ഡൗൺലോഡ് ചെയ്യൂ.
+</p>
+
+<p><strong>Android & iOS-ൽ ലഭ്യമാണ്</strong></p>
+
+<a href="https://play.google.com/store/apps/details?id=co.bran.hcjmf" class="btn">
+App Download ചെയ്യൂ
 </a>
 
 </div>
@@ -204,7 +186,7 @@ LIC പ്രൊഫഷണലുകൾക്ക് Trust build ചെയ്യാ
 
 <footer>
 
-<p>AK Rasak | MDRT Advisor</p>
+<p>AK Rasak | MDRT Advisor | Trainer</p>
 
 <p>
 Facebook Page: 
@@ -217,10 +199,35 @@ facebook.com/rasaktraining
 
 </footer>
 
-<!-- Floating WhatsApp -->
-<a href="https://wa.me/919846220955" class="whatsapp-float">
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/919846220955?text=Hi%20Sir,%20I%20want%20to%20register%20for%20the%20training" class="whatsapp-float">
 💬
 </a>
+
+<!-- TIMER SCRIPT -->
+<script>
+var countDownDate = new Date("Apr 21, 2026 19:45:00").getTime();
+
+var x = setInterval(function() {
+
+var now = new Date().getTime();
+var distance = countDownDate - now;
+
+var days = Math.floor(distance / (1000*60*60*24));
+var hours = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
+var minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
+var seconds = Math.floor((distance % (1000*60)) / 1000);
+
+document.getElementById("countdown").innerHTML =
+days + " ദിവസം " + hours + " മണിക്കൂർ " + minutes + " മിനിറ്റ് " + seconds + " സെക്കന്റ്";
+
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("countdown").innerHTML = "Training Started!";
+}
+
+}, 1000);
+</script>
 
 </body>
 </html>
